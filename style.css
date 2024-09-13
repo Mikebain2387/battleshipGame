@@ -1,0 +1,11 @@
+.battleship{
+ box-sizing: border-box;
+
+}
+
+.square{
+ background-color: cadetblue;
+ border: 2px solid black;
+height: 30px;
+width: auto;
+}

@@ -14,9 +14,10 @@ header h1{
 }
 
 .square{
- background: rgb(222,218,212);
-background: linear-gradient(253deg, rgba(222,218,212,1) 0%, rgba(0,0,0,1) 51%, rgba(122,120,117,1) 100%, rgba(240,239,237,1) 100%);
+ background: rgba(222, 218, 212, 0.482);
+background: linear-gradient(45deg, rgba(222,218,212,1) 0%, rgba(69, 68, 68, 0.381) 51%, rgba(229, 139, 5, 0.242) 100%, rgba(158, 105, 0, 0.509) 100%);
  border: 5px solid black;
+ box-shadow: 2px 2px 5px rgb(7, 7, 7);
 
 height: 100px;
 
@@ -24,12 +25,12 @@ height: 100px;
 
 .ifHit{
  
- background: rgb(50, 151, 36);
+ background: rgb(50, 151, 36) !important;
 }
 
 .ifMiss{
  
- background: red;
+ background: red !important;
 }
 
 .message{

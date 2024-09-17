@@ -68,6 +68,10 @@ margin-left: -67px;
  border-radius: 10px;
 }
 
+.confetti{
+ height: 100px;
+}
+
 .message{
  margin-left: -67px;
  font-size: 35px;

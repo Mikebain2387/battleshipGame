@@ -10,10 +10,10 @@ for (let i = 0; i < guess.length; i++) {
     guess[i].addEventListener('click', () => {
      //check if index is the same as random battleship number
         if (i === battleshipNumber) {
-         // add class to change color if hit or miss
+         // add class to change color if hit 
             guess[i].classList.add('ifHit');
             message.textContent = 'You Sank My Battleship';
-
+//confetti
             const duration = 3 * 1000,
             animationEnd = Date.now() + duration,
             defaults = { startVelocity: 30, spread: 360, ticks: 60, zIndex: 0 };
@@ -46,9 +46,11 @@ for (let i = 0; i < guess.length; i++) {
             );
           }, 100);
 
+// end of confetti
 
-
-        } else {
+        } 
+        //add class to change color if missed
+        else {
             guess[i].classList.add('ifMiss');
             message.textContent = 'You Missed, Try Again';
         }

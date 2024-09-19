@@ -2,7 +2,7 @@
 
 const guess = document.querySelectorAll('.square');
 //random number same length as squares length
-let battleshipNumber = Math.floor(Math.random() * 9);
+let battleshipNumber = Math.floor(Math.random(0) * guess.length);
 console.log(battleshipNumber)
 
 // for loop to run length of squares array
